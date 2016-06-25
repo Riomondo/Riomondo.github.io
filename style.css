@@ -3,6 +3,18 @@ body {
 
 }
 
+#tree {
+	float: right;
+}
+
+#contact {
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #999;
+}
 
 h1 {
 	font-size: 42px;
@@ -16,15 +28,7 @@ h3 {
 	font-size: 18px; 
 }
 
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url("Tree2a.gif");
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
+
 
 
 .lastImg {
