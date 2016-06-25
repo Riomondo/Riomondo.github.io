@@ -28,12 +28,12 @@ h3 {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("Tree.jpg");
+  background-image: url("Tree2.jpg");
   background-size: cover;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 
