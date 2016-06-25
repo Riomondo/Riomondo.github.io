@@ -14,13 +14,14 @@ body {
 }
 
 #header {
-	margin: 0 0 8px 0;
-	padding: 0 0 8px 0;
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
 	font-size: 42px;
 	font-weight: bold;
 	letter-spacing: -2px;
 	border-bottom: 1px solid #999;
 }
+
 
 
 #Career-Summary {
@@ -30,6 +31,14 @@ body {
 	font-size: 10px;
 }
 
+#Professional-header {
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 2px solid #999;
+}
 
 h1 {
 	font-size: 42px;
