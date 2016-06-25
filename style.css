@@ -22,15 +22,6 @@ body {
 	border-bottom: 1px solid #999;
 }
 
-.slideShow > div:not(.showImg) {
-        display: none;
-    }
-
-    .showImg {
-        display: block;
-        float: right;
-	max-width: 300px;
-    }
 
 #Career-Summary {
 	margin: 0 0 16px 0;
