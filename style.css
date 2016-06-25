@@ -14,12 +14,15 @@ body {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 24px;
 }
 
 h2 {
-	color: black;
-	font-size: 24px; 
+	font-size: 22px; 
+}
+
+h3 {
+	font-size: 18px; 
 }
 
 .jumbotron {
@@ -45,10 +48,6 @@ h2 {
 }
 
 
-p {
-	color: black;
-	font-size: 2em;
-}
 
 
 
