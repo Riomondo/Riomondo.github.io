@@ -22,6 +22,15 @@ body {
 	border-bottom: 1px solid #999;
 }
 
+
+#content-summarycontent {
+	margin: 0 0 16px 0;
+	padding: 0 0 32px 0;
+	font-style: italic;
+	font-size: 20px;
+}
+
+
 h1 {
 	font-size: 42px;
 }
