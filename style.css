@@ -3,9 +3,14 @@ body {
 
 }
 
+#container {
+	width: 800px;
+	margin: 40px auto 60px;
+}
+
 #tree {
 	float: right;
-	max-width: 250px;
+	max-width: 200px;
 }
 
 #header {
