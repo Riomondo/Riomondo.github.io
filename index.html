@@ -9,23 +9,16 @@
   
 <body>
 <div id="container">
-	<div class="slideShow" id="slideshow">
-		<div class="showImg">
-			<img src="2-15.gif" id="tree">
-		</div>
-		<img src="15a.gif" id="tree">
-		<img src="Mom.gif" id="tree">
-		<img src="Us.gif" id="tree">
-		<img src="GC.gif" id="tree">
-		<img src="Me.gif" id="tree">
-		<img src="Me.gif" id="tree">
-		<img src="Me-few.gif" id="tree">
-		<div class="lastImg">
-			<img src="Me-few.gif" id="tree">
-		</div>
-	</div>
-	
-	
+	<img class="mySlides" src="2-15.gif" id="tree">
+  	<img class="mySlides" src="15a.gif" id="tree">
+  	<img class="mySlides" src="Mom.gif" id="tree">
+  	<img class="mySlides" src="Us.gif" id="tree">
+  	<img class="mySlides" src="GC.gif" id="tree">
+  	<img class="mySlides" src="Me.gif" id="tree">
+	<img class="mySlides" src="Me.gif" id="tree">
+  	<img class="mySlides" src="Me-few.gif" id="tree">
+  	<img class="mySlides" src="Me-few.gif" id="tree">
+
 	<div id="header">Karen Riomondo
 	</div>
 	<div id="contact">
@@ -114,18 +107,21 @@
 
 
 <script>
-$(function () {
-        setTimeout(playSlideShow, 3000);
+var myIndex = 0;
+carousel();
 
-        function playSlideShow() {
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 1000); // Change image every 1 second
+}
 
-            var currImgContainer = $('.showImg');
-            if (!$(currImgContainer).hasClass('lastImg')) {
-                $('.showImg').removeClass('showImg').next().addClass('showImg');
-                setTimeout(playSlideShow, 3000);
-            }
-        }
-    });
 </script>
 
 
