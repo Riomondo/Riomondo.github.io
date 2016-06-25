@@ -9,7 +9,20 @@
   
 <body>
 <div id="container">
-	<img src="Tree4x4.gif" id="tree">
+  <img class="mySlides" src="2-15.gif" id="tree">
+  <img class="mySlides" src="15a.gif" id="tree">
+  <img class="mySlides" src="Mom.gif" id="tree">
+  <img class="mySlides" src="Us.gif" id="tree">
+  <img class="mySlides" src="GC.gif" id="tree">
+  <img class="mySlides" src="Me.gif" id="tree">
+  <img class="mySlides" src="Me.gif" id="tree">
+  <img class="mySlides" src="Me-few.gif" id="tree">
+  <img class="mySlides" src="Me-few.gif" id="tree">
+</div>
+
+	
+	
+	
 	<div id="header">Karen Riomondo
 	</div>
 	<div id="contact">
@@ -90,11 +103,25 @@
 
 </body>
 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 1000); // Change image every 1 second
+}
+</script>
 
 
 
   
 
 </html>
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
