@@ -42,11 +42,11 @@ body {
 	border-bottom: 1px solid #999;
 }
 
-.date {
+#date {
 	float: right;
 }
 
-.block-resp {
+#block-resp {
 	margin: 0 0 16px 16px;
 	padding: 0 0 16px 16px;
 }
