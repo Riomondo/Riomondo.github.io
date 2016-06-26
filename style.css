@@ -60,10 +60,13 @@ h2 {
 
 h3 {
 	font-size: 18px;
+	font-weight: bold;
 	border-bottom: 1px solid #999;
 }
 
-
+h4 {
+	font-weight: bold;
+}
 
 
 .lastImg {
