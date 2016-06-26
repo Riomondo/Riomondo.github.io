@@ -39,7 +39,6 @@ body {
 	padding: 0 0 0 0;
 	font-size: 30px;
 	font-weight: bold;
-	border-bottom: 1px solid #999;
 }
 
 #date {
@@ -60,7 +59,8 @@ h2 {
 }
 
 h3 {
-	font-size: 18px; 
+	font-size: 18px;
+	border-bottom: 1px solid #999;
 }
 
 
