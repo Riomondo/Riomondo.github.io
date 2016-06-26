@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, serif;
-
+	font-size: 16px;
 }
 
 #container {
@@ -40,6 +40,15 @@ body {
 	font-size: 30px;
 	font-weight: bold;
 	border-bottom: 1px solid #999;
+}
+
+#date {
+	float: right;
+}
+
+#block-resp {
+	margin: 0 0 16px 16px;
+	padding: 0 0 16px 16px;
 }
 
 h1 {
