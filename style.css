@@ -35,8 +35,8 @@ body {
 }
 
 #Professional-header {
-	margin: 0 0 16px 16px;
-	padding: 0 0 16px 16px;
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
